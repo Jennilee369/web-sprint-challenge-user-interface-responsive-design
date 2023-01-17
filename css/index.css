@@ -60,7 +60,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+    line-height: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+   
 }
 
 h2 {
@@ -86,12 +87,18 @@ p, a {
 /* header section */
 header {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-image: url('../img/home-header.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+   
+   
+
 }
+
+
+    
+
 
 /* spacers */
 .spacer {
@@ -185,11 +192,13 @@ header {
 }
 
 .contacts {
+    position: center;
     width: 25%;
 }
 
 /* footer section */
 footer {
+
     width: 100%;
     height: 15vh;
     padding-top: 2.5vh;
@@ -243,7 +252,9 @@ footer {
         width: 100%;
         padding-bottom: 2.5vh;
     }
-
+    .Copyright{
+        text-align:center;
+    }
     /* footer section */
     footer {
         height: auto;
